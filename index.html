@@ -24,6 +24,11 @@
         }
     </script>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         .manrope {
             font-family: "Manrope", serif;
         }
@@ -32,45 +37,100 @@
 
 <body class="manrope">
     <!-- header content -->
-    <!-- px-16 lg:px-20 -->
-    <header class="max-w-7xl mx-auto ">
-        <!-- pt-10 mb-20 -->
-        <div class="flex">
+    <header class="max-w-[1300px] mx-auto ">
+        <div class="flex justify-between">
             <!-- text-content -->
-            <div>
-                <h1 class="font-extrabold text-[80px] leading-[100px] text-[#1C1C1C] pb-[30px] pt-[68px]
-                    ">It's good <br>
-                    tea time at The Tea <br>House
+            <div class="mt-[68px]">
+                <h1 class="font-extrabold text-[80px] leading-[100px] text-[#1C1C1C] pb-[30px] ">
+                    It's good <br>
+                    tea time at The <br>
+                    Tea Ho use
                 </h1>
-                <p class="w-lg font-medium text-lg leading-[30px] text-[#777777] pb-[30px]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
-                    <button class="bg-gradient-to-r from-[#FF8938] to-[#ff0000]  rounded-lg text-[#FFFFFF] p-5 font-bold text-sm">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+                <p class="font-medium text-lg text-[#777777] mb-[30px]">Tea and Botanical Solutions Supplier Give
+                    Optimum <br> Satisfaction To Your Taste Buds.</p>
+                <button
+                    class="bg-gradient-to-r from-[#FF8938] to-[#ff0000]  rounded-lg text-[#FFFFFF] p-5 font-bold text-xl flex items-center gap-3">Explore
+                    More
+                    <img src="images/arrow.png" alt="">
+                </button>
             </div>
-            <div >
+            <div>
                 <!-- img -->
-                <div class="relative pt-32">
-                    <img class="w-full" src="images/banner.png" alt="">
+                <div class="relative mt-28 mb-32">
+                    <img class="" src="images/banner.png" alt="">
                     <!-- card -->
-                <div class="absolute flex items-center px-[30px] py-[20px] gap-2 rounded-xl bg-white shadow-lg bottom-3 left-20">
-                    <!-- icon -->
-                    <div><i class="text-2xl text-amber-500 fa-solid fa-star"></i></div>
-                    <!-- text -->
-                    <div>
-                        <h2 class="font-extrabold text-3xl text-[#1C1C1C]">5.00</h2>
-                        <p class="font-semibold text-[#777777]">Trust Pilot Ratings</p>
+                    <div
+                        class="absolute flex items-center px-[30px] py-[20px] gap-2 rounded-xl bg-white shadow-lg bottom-3 left-[91px]">
+                        <!-- icon -->
+                        <div><i class="text-2xl text-amber-500 fa-solid fa-star"></i></div>
+                        <!-- text -->
+                        <div>
+                            <h2 class="font-extrabold text-3xl text-[#1C1C1C]">5.00</h2>
+                            <p class="font-semibold text-[#777777]">Trust Pilot Ratings</p>
+                        </div>
                     </div>
                 </div>
-                </div>
-                
             </div>
         </div>
     </header>
 
-    <main>
 
-    </main>
+<!-- Main section start -->
+<main>
+<section class="text-center max-w-[1300px] mx-auto mb-32">
+<h2 class="font-extrabold text-[45px] text-[rgb(28,28,28)] mb-5">Our Featured Products</h2>
+<p class="font-medium leading-7 text-[#777777] mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br>
+by injected humour, or randomised words which don't look even slightly believable.</p>
+
+<div class="grid grid-cols-4 gap-6">
+    <!-- card 1 -->
+    <div class="bg-gradient-to-b from-[#F4F4F4] to-[rgba(244, 244, 244, 0)] p-[30px] rounded-xl">
+        <div class="flex justify-center">
+                    <img class="mb-[30px]" src="images/tea-1.png" alt="">
+        </div>
+        <h3 class="font-extrabold text-[25px] text-[#1C1C1C]">Milk Tea</h3>
+        <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
+    </div>
+    <!-- card 2 -->
+    <div class="bg-gradient-to-b from-[#F4F4F4] to-[rgba(244, 244, 244, 0)] p-[30px] rounded-xl">
+        <div class="flex justify-center">
+            <img class="mb-[30px]" src="images/tea-2.png" alt="">
+        </div>
+        <h3 class="font-extrabold text-[25px] text-[#1C1C1C]">Pink Tea</h3>
+        <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
+
+    </div>
+    <!-- card 3 -->
+    <div class="bg-gradient-to-b from-[#F4F4F4] to-[rgba(244, 244, 244, 0)] p-[30px] rounded-xl">
+        <div class="flex justify-center">
+            <img class="mb-[30px]" src="images/tea-3.png" alt="">
+        </div>
+        <h3 class="font-extrabold text-[25px] text-[#1C1C1C]">Lemon Tea</h3>
+        <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
+    </div>
+    <!-- card 4 -->
+    <div class="bg-gradient-to-b from-[#F4F4F4] to-[rgba(244, 244, 244, 0)] p-[30px] rounded-xl">
+        <div class="flex justify-center">
+            <img class="mb-[30px]" src="images/tea-4.png" alt="">
+        </div>
+        <h3 class="font-extrabold text-[25px] text-[#1C1C1C]">Green Tea</h3>
+        <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
+    </div>
+</div>
+</section>
+</main>
+
+
+
+
+
+
+
+
+
+
 
     <footer>
-        <h1>Moshiur</h1>
     </footer>
 </body>
 
